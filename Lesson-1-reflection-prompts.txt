@@ -1,0 +1,56 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Fill in your answer here: 
+    allows to directly point out the lines of code that are different between
+    the 2 versions, and probably there will be the error, probably a typo.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Fill in your answer here:
+    probably allows me to find the correct version I'm looking for right away,
+    or navigate through them to find bugs or use a previous working state of 
+    that file/program.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Fill in your answer here
+    It allows to the user intelligently choose the point to create a new commit.
+    Every new commit must reflect a logical change to the prgram, the changes
+    shouldn't be too small or too big.
+    Automatically saved changes are not appropiate because they wont be done auto-
+    matically without any reflecting any logical change.
+    
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Fill in your answer here
+    Because you need all the files that form a program in that specific state for
+    the commit (snapshot), that is forming a repository as a cohesive unit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Fill in your answer here
+    You need to be in the directory of the program (master) and type 'git log' to
+    see all the history of commits.
+    Using 'git diff [ID1] [ID2]' allows you to compare to commits (watching the 
+    deletions & insertions).
+    Using 'git config --global color.ui auto' allows to see the insertions '+' in
+    green, and the deletion '-' in red.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Fill in your answer here
+    Because I know I can return to any previous working commit, using 
+    git checkout [ID]
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
+    Everything, but I wanna know how to actually implement the commits
+    and all the Git functionality in a new webpage I build.
