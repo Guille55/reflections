@@ -10,13 +10,26 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	You can type 'git diff' and it'll check the differences (insertions & deletions)
+	between the staged files and working directory.
+	You can type 'git diff --staged' and it'll check the differences (insertions &
+	deletions) between the staged files and the last acting commit.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	allows to test and develop new things, unique features or experiment aside from the main branch (master) easily.
+
 How do the diagrams help you visualize the branch structure?
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+	Helps you to see clearly each branch path and it's parents, so I can see visually the commits created so far in each branch.
 
-What are the pros and cons of Git's automatic merging vs. always doing merges
-manually?
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	It merges to branches of code, to be effective there can't be conflict between the line of codes. 
+	The new merged commit has the 2 parents and can acccess both parents
+	branches with git log.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+	Only an human have the capacity to solve problem efficiently in any of the millions of diverse conflicts that can arise when merging different brances with differents lines of codes.
