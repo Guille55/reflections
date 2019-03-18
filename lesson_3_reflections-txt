@@ -7,10 +7,11 @@ automatically stay up-to-date with your remote repository?
     Because Git can't know when a logical change has effectively been done, rather than saving e.g. every 5 minutes with no logical changes
     been done or maybe more than one but half-way through other.
 
-Describe the differences between forks, clones, and branches.  When would you
-use one instead of another?
+Describe the differences between forks, clones, and branches.  When would you use one instead of another?
 
-    Fill in your answer here
+    Fork is tocy a repository in GitHub to a repository on mine directly on GitHub.
+    Clone allows to copy a repository from GitHub to my local machine or vice-versa.
+    A branch allows to add a new branch of commits locally.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
