@@ -13,10 +13,9 @@ Describe the differences between forks, clones, and branches.  When would you us
     Clone allows to copy a repository from GitHub to my local machine or vice-versa.
     A branch allows to add a new branch of commits locally.
 
-What is the benefit of having a copy of the last known state of the remote
-stored locally?
+What is the benefit of having a copy of the last known state of the remote stored locally?
 
-    Fill in your answer here
+    Allows you to watch if there are new commits/changes in the remote repository vs. your local, and also be able to use and work with those remote commits without internet.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
